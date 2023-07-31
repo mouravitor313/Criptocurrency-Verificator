@@ -1,29 +1,32 @@
 # CriptoChecker
 
-CriptoChecker é um script em Python que usa a API do CoinGecko para obter informações sobre criptomoedas. Ele permite que você verifique o preço atual e o histórico de preços de uma criptomoeda específica, bem como veja a lista de criptomoedas suportadas pela API do CoinGecko.
+CriptoChecker is a Python script that uses the CoinGecko API to obtain information about cryptocurrencies. It allows you to check the current price and price history of a specific cryptocurrency, as well as see the list of cryptocurrencies supported by the CoinGecko API.
 
-## Requisitos
+## Running CriptoChecker
 
-Para executar o CriptoChecker, você precisará ter o Python 3.x instalado em seu computador. Além disso, você precisará instalar as seguintes bibliotecas:
+The easiest way to run CriptoChecker is to use the executable created with cx_Freeze. This allows you to run the program on any computer without having to install Python or any additional libraries. The program, along with all the files and folders created by cx_Freeze, is available in a .rar file.
+
+To use CriptoChecker with the executable, simply extract the contents of the .rar file and run the `CriptoChecker.exe` file. This will open a window with the program's graphical interface.
+
+## Editing CriptoChecker
+
+If you want to edit or modify the CriptoChecker code, you will need to have Python 3.x installed on your computer. Additionally, you will need to install the following libraries:
 
 - PySimpleGUI
 - requests
 
-Você pode instalar essas bibliotecas executando os seguintes comandos no terminal:
+You can install these libraries by running the following commands in the terminal:
 
 ```
 pip install pysimplegui
 pip install requests
 ```
 
-## Como usar
+Once you have installed Python and the required libraries, you can run and edit the `criptochecker.py` script using your preferred code editor.
 
-Para usar o CriptoChecker, basta executar o script `criptochecker.py` usando o Python. Isso abrirá uma janela com a interface gráfica do programa.
+## How to use
 
-Na janela principal, você pode digitar o ID da criptomoeda que deseja verificar (por exemplo, "bitcoin") e a moeda de conversão desejada (por exemplo, "usd") nas entradas de texto correspondentes. Em seguida, clique no botão "Verificar" para verificar o preço e o histórico de preços da criptomoeda escolhida.
+In the main window of CriptoChecker, you can enter the ID of the cryptocurrency you want to check (e.g., "bitcoin") and the desired conversion currency (e.g., "usd") in the corresponding text inputs. Then click on the "Check" button to check the price and price history of the chosen cryptocurrency.
 
-Você também pode clicar no botão "Mostrar Criptomoedas Suportadas" para mostrar a lista de criptomoedas suportadas pela API do CoinGecko na mesma janela.
-
-## Licença
-
-CriptoChecker é um software livre e de código aberto licenciado sob a [Licença MIT](LICENSE).
+## Credits
+This code was made with the help of: https://github.com/Maicon-MK
